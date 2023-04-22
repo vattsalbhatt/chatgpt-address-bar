@@ -1,0 +1,18 @@
+{
+  "name": "ChatGPT",
+  "version": "1.0",
+  "description": "Redirects 'gpt' text to chat.openai.com",
+  "manifest_version": 3,
+  "icons": {
+    "16": "ChatGPTLogo.png",
+    "32": "ChatGPTLogo.png",
+    "48": "ChatGPTLogo.png",
+    "128": "ChatGPTLogo.png"
+  },
+  "omnibox": { "keyword" : "gpt" },
+  "permissions": ["scripting", "activeTab","tabs"],
+  "background": {
+    "service_worker": "load-gpt.js"
+  },
+  "host_permissions": ["https://chat.openai.com/"]
+}
