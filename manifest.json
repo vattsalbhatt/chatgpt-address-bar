@@ -1,7 +1,7 @@
 {
   "name": "ChatGPT",
   "version": "1.0",
-  "description": "Redirects 'gpt' text to chat.openai.com",
+  "description": "Type 'gpt' in the address bar, followed by your queries, to perform searches using the ChatGPT search engine.",
   "manifest_version": 3,
   "icons": {
     "16": "ChatGPTLogo.png",
